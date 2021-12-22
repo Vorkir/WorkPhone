@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkPhone</title>
+    <link rel="stylesheet" href="styles/catalog.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="" alt="Logo">
+        </a>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a href="catalog.html" class="nav-link">Каталог</a>
+                </li>
+                <li class="nav-item">
+                    <a href="comment.html" class="nav-link">О нас</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contacts.html" class="nav-link">Контакты</a>
+                </li>
+                <li class="nav-item nav-item--login">
+                    <a href="#" class="nav-link nav-link--login">Войти</a>
+                </li>
+                <li class="nav--item nav-item--register">
+                    <a href="#" class="nav--link nav-link--register">Регистрация</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+        <div class = "container">
+	<section class="panel" id="catalog">
+        <h1 class="catalog">Каталог</h1>
+        <input type="radio" id="giroscooters" name="categories" value="giroscooters">
+        <input type="radio" id="electric_scooters" checked name="categories" value="electric_scooters">
+        <input type="radio" id="segways" name="categories" value="segways">
+        <div class="categories">
+            <form id="catalog_filter">
+                <ul id="categories-container">
+                    <li>
+                        <label for="giroscooters" id="giroscooters-tab" class="text-upper">Смартфоны</label>
+                    </li>
+                    <li>    
+                        <label for="electric_scooters" id="electric_scooters-tab" class="textupper">Планшеты</label>
+                    </li>
+                    <li>
+                        <label for="segways" id="segways-tab" class="text-upper">Ноутбуки</label>
+                    </li>
+                </ul>
+            </form>
+        </div>
+
+        <div class="panels">
+            <div id="electric_scooters-container" class=" justify-content-between flex-wrap catalog-container">
+                <div class="c-card">
+                    <img src="img/catalog/electric_scooters/1.png" alt="card-image">
+                    <div class="card-body">
+                        <h4 class="text-upper text-center" style="color: #F44545;">Ipad Pro 4 поколения Wifi + BT</h4>
+                        <p class="type"><span>Вид:</span>Планшет</p>
+                        <div class="price-container d-flex justify-content-between align-items-center">
+                            <p class="price">12 499<span>р.</span></p>
+                            <button class="button">Приобрести</button>
+                        </div>
+                    </div>
+                </div>
+
+        <div class = "c-card">
+            <img src="img/catalog/electric_scooters/2.png" alt="card-image">
+            <div class = "card-body">
+                <h4 class = "text-upper text-center" style = "color: #F44545;">Ipad Pro 2 поколения Wifi + BT </h4>
+                <p class = "type"><span>Вид:</span>Планшет</p>
+                <div class = "price-container d-flex justify-content-between align-items-center">
+                    <p class="price">15 999<span>р.</span></p>
+                    <button class = "button">Приобрести</button>
+                </div>
+            </div>
+        </div> 
+        
+        <div class = "c-card">
+            <img src="img/catalog/electric_scooters/3.png" alt="card-image">
+            <div class = "card-body">
+                <h4 class = "text-upper text-center" style = "color: #F44545;">Lenovo TAB 5 PRO Wifi + BT </h4>
+                <p class = "type"><span>Вид:</span>Планшет</p>
+                <div class = "price-container d-flex justify-content-between align-items-center">
+                    <p class="price">5 999<span>р.</span></p>
+                    <button class = "button">Приобрести</button>
+                </div>
+            </div>
+        </div>
+    </div>        
+
+        <div id = "giroscooters-container" class = "justify-content-between flex-wrap catalog-container">
+            <div class = "c-card">
+                <img src = "img/catalog/giroscooters/1.png" alt = "card-image">
+                <div class = "card-body">
+                    <h4 class = "text-upper text-center" style = "color: #F44545;">Iphone X black WiFi + BT</h4>
+                    <p class = "type"><span>Вид:</span>Смартфон</p>
+                    <div class = "price-container d-flex justify-content-between align-items-center">
+                        <p class = "price">24 999<span>р.</span></p>
+                        <button class = "button">Приобрести</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "c-card">
+                <img src = "img/catalog/giroscooters/2.png" alt = "card-image">
+                <div class = "card-body">
+                    <h4 class = "text-upper text-center" style = "color: #F44545;">HTC Radar H110 black Wifi + BT</h4>
+                    <p class = "type"><span>Вид:</span>Смартфон</p>
+                    <div class = "price-container d-flex justify-content-between align-items-center">
+                        <p class = "price">12 990<span>р.</span></p>
+                        <button class = "button">Приобрести</button>
+                    </div>
+                </div>
+            </div>
+
+                
+            <div class = "c-card">
+                <img src = "img/catalog/giroscooters/3.png" alt = "card-image">
+                <div class = "card-body">
+                    <h4 class = "text-upper text-center" style = "color: #F44545;">Samsung galaxy S4 Wifi + BT</h4>
+                    <p class = "type"><span>Вид:</span>Смартфон</p>
+                    <div class = "price-container d-flex justify-content-between align-items-center">
+                        <p class = "price">20 499<span>р.</span></p>
+                        <button class = "button">Приобрести</button>
+                    </div>
+                </div>
+            </div>              
+        </div>
+
+        <div id = "segways-container" class = "justify-content-between flex-wrap catalog-container">
+            <div class = "c-card">
+                <img src = "img/catalog/segways/1.png" alt = "card-image">
+                <div class = "card-body">
+                    <h4 class = "text-upper text-center" style = "color: #F44545;">Lenovo MacBook Pro Wifi + BT</h4>
+                    <p class = "type"><span>Вид:</span>Ноутбук</p>
+                    <div class = "price-container d-flex justify-content-between align-items-center">
+                        <p class = "price">18 999<span>р.</span></p>
+                        <button class = "button">Приобрести</button>
+                    </div>
+                </div>
+            </div>
+            <div class = "c-card">
+                <img src = "img/catalog/segways/2.png" alt = "card-image">
+                <div class = "card-body">
+                    <h4 class = "text-upper text-center" style = "color: #F44545;">HP ProBook Lite Wifi + BT</h4>
+                    <p class = "type"><span>Вид:</span>Ноутбук</p>
+                    <div class = "price-container d-flex justify-content-between align-items-center">
+                        <p class = "price">24 999<span>р.</span></p>
+                        <button class = "button">Приобрести</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "c-card">
+                <img src = "img/catalog/segways/3.png" alt = "card-image">
+                <div class = "card-body">
+                    <h4 class = "text-upper text-center" style = "color: #F44545;">MacBook Pro Lite 2019 Wifi + BT</h4>
+                    <p class = "type"><span>Вид:</span>Ноутбук</p>
+                    <div class = "price-container d-flex justify-content-between align-items-center">
+                        <p class = "price">32 499<span>р.</span></p>
+                        <button class = "button">Приобрести</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    </main>    
+    
+    <footer>
+        <div class="container">
+          <div class="footer-row">
+            <small class="footer-copyright">© 2021 WorkPhone — Все права защищены</small>
+            <ul class="footer-social">
+              <li>
+                <a href="#">
+                  <img src="img/icons/facebook.svg" alt="facebook">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/icons/instagram.svg" alt="Instagram">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/icons/youtube.svg" alt="Youtube">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/icons/twitter.svg" alt="Twitter">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+
+<body>
+</html>	
+	
